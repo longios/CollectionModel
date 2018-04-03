@@ -1,0 +1,16 @@
+//
+//  CollectionModel.pch
+//  CollectionModel
+//
+//  Created by Abe on 2018/3/13.
+//  Copyright © 2018年 heimavista. All rights reserved.
+//
+
+#ifndef CollectionModel_pch
+#define CollectionModel_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ZLMacroDefinitionHeader.h"
+
+#endif /* CollectionModel_pch */
