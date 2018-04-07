@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F043622205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F043621205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.m */; };
-		5F043625205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F043624205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.m */; };
+		187F137B2078654500DDA0BE /* UICollectionViewCell+CollectionModelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F135C2078654400DDA0BE /* UICollectionViewCell+CollectionModelExtension.m */; };
+		187F137C2078654500DDA0BE /* ZLCollectionSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F135D2078654400DDA0BE /* ZLCollectionSectionModel.m */; };
+		187F137D2078654500DDA0BE /* ZLCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F135E2078654400DDA0BE /* ZLCollectionViewModel.m */; };
+		187F137E2078654500DDA0BE /* UICollectionReusableView+collectionModelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F135F2078654400DDA0BE /* UICollectionReusableView+collectionModelExtension.m */; };
+		187F137F2078654500DDA0BE /* ZLCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13612078654400DDA0BE /* ZLCollectionCellModel.m */; };
+		187F13802078654500DDA0BE /* ZLSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13682078654400DDA0BE /* ZLSectionModel.m */; };
+		187F13812078654500DDA0BE /* ZLCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F136C2078654400DDA0BE /* ZLCellModel.m */; };
+		187F13822078654500DDA0BE /* ZLListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F136D2078654400DDA0BE /* ZLListViewModel.m */; };
+		187F13832078654500DDA0BE /* ZLTableviewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13702078654500DDA0BE /* ZLTableviewSectionModel.m */; };
+		187F13842078654500DDA0BE /* ZLTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13712078654500DDA0BE /* ZLTabViewModel.m */; };
+		187F13852078654500DDA0BE /* ZLTableviewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13722078654500DDA0BE /* ZLTableviewCellModel.m */; };
+		187F13862078654500DDA0BE /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13732078654500DDA0BE /* UITableViewCell+Extension.m */; };
+		187F13872078654500DDA0BE /* UIView+TabSectionViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 187F13742078654500DDA0BE /* UIView+TabSectionViewExtension.m */; };
 		5F043628205A568000A6C26B /* TestCollectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F043627205A568000A6C26B /* TestCollectionModel.m */; };
 		5F04362B205A56A600A6C26B /* TestCollectionSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F04362A205A56A600A6C26B /* TestCollectionSectionModel.m */; };
 		5F04362D205A587900A6C26B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F04362C205A587900A6C26B /* 1.jpg */; };
-		5F0A3A422057B326005980D5 /* ZLCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A412057B326005980D5 /* ZLCollectionViewModel.m */; };
-		5F0A3A452057B6A0005980D5 /* ZLCollectionSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A442057B6A0005980D5 /* ZLCollectionSectionModel.m */; };
-		5F0A3A482057B6AE005980D5 /* ZLCollectionCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A472057B6AE005980D5 /* ZLCollectionCellModel.m */; };
-		5F0A3A4E2057BA70005980D5 /* ZLSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A4D2057BA70005980D5 /* ZLSectionModel.m */; };
-		5F0A3A512057BA7F005980D5 /* ZLCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A502057BA7F005980D5 /* ZLCellModel.m */; };
-		5F0A3A542057BA91005980D5 /* ZLListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A532057BA91005980D5 /* ZLListViewModel.m */; };
-		5F0A3A572057BAB7005980D5 /* ZLTabViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A562057BAB7005980D5 /* ZLTabViewModel.m */; };
-		5F0A3A5A2057BACB005980D5 /* ZLTableviewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A592057BACB005980D5 /* ZLTableviewSectionModel.m */; };
-		5F0A3A5D2057BAE6005980D5 /* ZLTableviewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A5C2057BAE6005980D5 /* ZLTableviewCellModel.m */; };
-		5F0A3A602057D1D4005980D5 /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A3A5F2057D1D4005980D5 /* UITableViewCell+Extension.m */; };
 		5FA52DB32059773200C2F8E1 /* ZLLblSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA52DB22059773200C2F8E1 /* ZLLblSectionModel.m */; };
-		5FA52DB620597D3700C2F8E1 /* UIView+TabSectionViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA52DB520597D3700C2F8E1 /* UIView+TabSectionViewExtension.m */; };
 		5FA7E7BB2058CC3900CCCEAD /* TestCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA7E7BA2058CC3900CCCEAD /* TestCellModel.m */; };
 		5FDBBBB2205669C90089D5EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBBBB1205669C90089D5EA /* AppDelegate.m */; };
 		5FDBBBB5205669C90089D5EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBBBB4205669C90089D5EA /* ViewController.m */; };
@@ -34,47 +34,47 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F04361D205A2C6800A6C26B /* ZLCollectionViewReuseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewReuseViewProtocol.h; sourceTree = "<group>"; };
-		5F04361E205A433D00A6C26B /* ZLCollectionViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewCellProtocol.h; sourceTree = "<group>"; };
-		5F043620205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+CollectionModelExtension.h"; sourceTree = "<group>"; };
-		5F043621205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+CollectionModelExtension.m"; sourceTree = "<group>"; };
-		5F043623205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+collectionModelExtension.h"; sourceTree = "<group>"; };
-		5F043624205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+collectionModelExtension.m"; sourceTree = "<group>"; };
+		187F135B2078654400DDA0BE /* ZLCollectionCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionCellModel.h; sourceTree = "<group>"; };
+		187F135C2078654400DDA0BE /* UICollectionViewCell+CollectionModelExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+CollectionModelExtension.m"; sourceTree = "<group>"; };
+		187F135D2078654400DDA0BE /* ZLCollectionSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionSectionModel.m; sourceTree = "<group>"; };
+		187F135E2078654400DDA0BE /* ZLCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionViewModel.m; sourceTree = "<group>"; };
+		187F135F2078654400DDA0BE /* UICollectionReusableView+collectionModelExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionReusableView+collectionModelExtension.m"; sourceTree = "<group>"; };
+		187F13602078654400DDA0BE /* UICollectionViewCell+CollectionModelExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+CollectionModelExtension.h"; sourceTree = "<group>"; };
+		187F13612078654400DDA0BE /* ZLCollectionCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionCellModel.m; sourceTree = "<group>"; };
+		187F13622078654400DDA0BE /* ZLCollectionViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewCellProtocol.h; sourceTree = "<group>"; };
+		187F13632078654400DDA0BE /* ZLCollectionSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionSectionModel.h; sourceTree = "<group>"; };
+		187F13642078654400DDA0BE /* ZLCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewModel.h; sourceTree = "<group>"; };
+		187F13652078654400DDA0BE /* UICollectionReusableView+collectionModelExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionReusableView+collectionModelExtension.h"; sourceTree = "<group>"; };
+		187F13662078654400DDA0BE /* ZLCollectionViewReuseViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewReuseViewProtocol.h; sourceTree = "<group>"; };
+		187F13682078654400DDA0BE /* ZLSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLSectionModel.m; sourceTree = "<group>"; };
+		187F13692078654400DDA0BE /* ZLCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCellModel.h; sourceTree = "<group>"; };
+		187F136A2078654400DDA0BE /* ZLListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLListViewModel.h; sourceTree = "<group>"; };
+		187F136B2078654400DDA0BE /* ZLSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLSectionModel.h; sourceTree = "<group>"; };
+		187F136C2078654400DDA0BE /* ZLCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCellModel.m; sourceTree = "<group>"; };
+		187F136D2078654400DDA0BE /* ZLListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLListViewModel.m; sourceTree = "<group>"; };
+		187F136F2078654500DDA0BE /* UIView+TabSectionViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TabSectionViewExtension.h"; sourceTree = "<group>"; };
+		187F13702078654500DDA0BE /* ZLTableviewSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableviewSectionModel.m; sourceTree = "<group>"; };
+		187F13712078654500DDA0BE /* ZLTabViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTabViewModel.m; sourceTree = "<group>"; };
+		187F13722078654500DDA0BE /* ZLTableviewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTableviewCellModel.m; sourceTree = "<group>"; };
+		187F13732078654500DDA0BE /* UITableViewCell+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extension.m"; sourceTree = "<group>"; };
+		187F13742078654500DDA0BE /* UIView+TabSectionViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TabSectionViewExtension.m"; sourceTree = "<group>"; };
+		187F13752078654500DDA0BE /* ZLTableViewCellModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableViewCellModelProtocol.h; sourceTree = "<group>"; };
+		187F13762078654500DDA0BE /* ZLTabViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTabViewModel.h; sourceTree = "<group>"; };
+		187F13772078654500DDA0BE /* ZLTableviewSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableviewSectionModel.h; sourceTree = "<group>"; };
+		187F13782078654500DDA0BE /* ZLTableViewSectionViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableViewSectionViewProtocol.h; sourceTree = "<group>"; };
+		187F13792078654500DDA0BE /* UITableViewCell+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Extension.h"; sourceTree = "<group>"; };
+		187F137A2078654500DDA0BE /* ZLTableviewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTableviewCellModel.h; sourceTree = "<group>"; };
 		5F043626205A568000A6C26B /* TestCollectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionModel.h; sourceTree = "<group>"; };
 		5F043627205A568000A6C26B /* TestCollectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionModel.m; sourceTree = "<group>"; };
 		5F043629205A56A600A6C26B /* TestCollectionSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionSectionModel.h; sourceTree = "<group>"; };
 		5F04362A205A56A600A6C26B /* TestCollectionSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionSectionModel.m; sourceTree = "<group>"; };
 		5F04362C205A587900A6C26B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		5F0A3A402057B326005980D5 /* ZLCollectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionViewModel.h; sourceTree = "<group>"; };
-		5F0A3A412057B326005980D5 /* ZLCollectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionViewModel.m; sourceTree = "<group>"; };
-		5F0A3A432057B6A0005980D5 /* ZLCollectionSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionSectionModel.h; sourceTree = "<group>"; };
-		5F0A3A442057B6A0005980D5 /* ZLCollectionSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionSectionModel.m; sourceTree = "<group>"; };
-		5F0A3A462057B6AE005980D5 /* ZLCollectionCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCollectionCellModel.h; sourceTree = "<group>"; };
-		5F0A3A472057B6AE005980D5 /* ZLCollectionCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCollectionCellModel.m; sourceTree = "<group>"; };
 		5F0A3A492057B90F005980D5 /* ZLMacroDefinitionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMacroDefinitionHeader.h; sourceTree = "<group>"; };
 		5F0A3A4A2057B935005980D5 /* CollectionModel.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionModel.pch; sourceTree = "<group>"; };
-		5F0A3A4C2057BA70005980D5 /* ZLSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSectionModel.h; sourceTree = "<group>"; };
-		5F0A3A4D2057BA70005980D5 /* ZLSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSectionModel.m; sourceTree = "<group>"; };
-		5F0A3A4F2057BA7F005980D5 /* ZLCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCellModel.h; sourceTree = "<group>"; };
-		5F0A3A502057BA7F005980D5 /* ZLCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCellModel.m; sourceTree = "<group>"; };
-		5F0A3A522057BA91005980D5 /* ZLListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLListViewModel.h; sourceTree = "<group>"; };
-		5F0A3A532057BA91005980D5 /* ZLListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLListViewModel.m; sourceTree = "<group>"; };
-		5F0A3A552057BAB7005980D5 /* ZLTabViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTabViewModel.h; sourceTree = "<group>"; };
-		5F0A3A562057BAB7005980D5 /* ZLTabViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTabViewModel.m; sourceTree = "<group>"; };
-		5F0A3A582057BACB005980D5 /* ZLTableviewSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableviewSectionModel.h; sourceTree = "<group>"; };
-		5F0A3A592057BACB005980D5 /* ZLTableviewSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableviewSectionModel.m; sourceTree = "<group>"; };
-		5F0A3A5B2057BAE6005980D5 /* ZLTableviewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableviewCellModel.h; sourceTree = "<group>"; };
-		5F0A3A5C2057BAE6005980D5 /* ZLTableviewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLTableviewCellModel.m; sourceTree = "<group>"; };
-		5F0A3A5E2057D1D4005980D5 /* UITableViewCell+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Extension.h"; sourceTree = "<group>"; };
-		5F0A3A5F2057D1D4005980D5 /* UITableViewCell+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extension.m"; sourceTree = "<group>"; };
-		5FA52DB02059740800C2F8E1 /* ZLTableViewSectionViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableViewSectionViewProtocol.h; sourceTree = "<group>"; };
 		5FA52DB12059773200C2F8E1 /* ZLLblSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLblSectionModel.h; sourceTree = "<group>"; };
 		5FA52DB22059773200C2F8E1 /* ZLLblSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLblSectionModel.m; sourceTree = "<group>"; };
-		5FA52DB420597D3700C2F8E1 /* UIView+TabSectionViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TabSectionViewExtension.h"; sourceTree = "<group>"; };
-		5FA52DB520597D3700C2F8E1 /* UIView+TabSectionViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TabSectionViewExtension.m"; sourceTree = "<group>"; };
 		5FA7E7B92058CC3900CCCEAD /* TestCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCellModel.h; sourceTree = "<group>"; };
 		5FA7E7BA2058CC3900CCCEAD /* TestCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCellModel.m; sourceTree = "<group>"; };
-		5FA7E7BC2058CD8B00CCCEAD /* ZLTableViewCellModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLTableViewCellModelProtocol.h; sourceTree = "<group>"; };
 		5FDBBBAD205669C90089D5EA /* CollectionModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDBBBB0205669C90089D5EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FDBBBB1205669C90089D5EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +98,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187F135A2078654400DDA0BE /* CollectionModel */ = {
+			isa = PBXGroup;
+			children = (
+				187F13602078654400DDA0BE /* UICollectionViewCell+CollectionModelExtension.h */,
+				187F135C2078654400DDA0BE /* UICollectionViewCell+CollectionModelExtension.m */,
+				187F13632078654400DDA0BE /* ZLCollectionSectionModel.h */,
+				187F135D2078654400DDA0BE /* ZLCollectionSectionModel.m */,
+				187F135B2078654400DDA0BE /* ZLCollectionCellModel.h */,
+				187F13612078654400DDA0BE /* ZLCollectionCellModel.m */,
+				187F13642078654400DDA0BE /* ZLCollectionViewModel.h */,
+				187F135E2078654400DDA0BE /* ZLCollectionViewModel.m */,
+				187F13652078654400DDA0BE /* UICollectionReusableView+collectionModelExtension.h */,
+				187F135F2078654400DDA0BE /* UICollectionReusableView+collectionModelExtension.m */,
+				187F13622078654400DDA0BE /* ZLCollectionViewCellProtocol.h */,
+				187F13662078654400DDA0BE /* ZLCollectionViewReuseViewProtocol.h */,
+			);
+			name = CollectionModel;
+			path = ../../collectionModels/CollectionModel;
+			sourceTree = "<group>";
+		};
+		187F13672078654400DDA0BE /* union */ = {
+			isa = PBXGroup;
+			children = (
+				187F136B2078654400DDA0BE /* ZLSectionModel.h */,
+				187F13682078654400DDA0BE /* ZLSectionModel.m */,
+				187F13692078654400DDA0BE /* ZLCellModel.h */,
+				187F136C2078654400DDA0BE /* ZLCellModel.m */,
+				187F136A2078654400DDA0BE /* ZLListViewModel.h */,
+				187F136D2078654400DDA0BE /* ZLListViewModel.m */,
+			);
+			name = union;
+			path = ../../collectionModels/union;
+			sourceTree = "<group>";
+		};
+		187F136E2078654500DDA0BE /* tabModel */ = {
+			isa = PBXGroup;
+			children = (
+				187F136F2078654500DDA0BE /* UIView+TabSectionViewExtension.h */,
+				187F13742078654500DDA0BE /* UIView+TabSectionViewExtension.m */,
+				187F137A2078654500DDA0BE /* ZLTableviewCellModel.h */,
+				187F13722078654500DDA0BE /* ZLTableviewCellModel.m */,
+				187F13772078654500DDA0BE /* ZLTableviewSectionModel.h */,
+				187F13702078654500DDA0BE /* ZLTableviewSectionModel.m */,
+				187F13762078654500DDA0BE /* ZLTabViewModel.h */,
+				187F13712078654500DDA0BE /* ZLTabViewModel.m */,
+				187F13792078654500DDA0BE /* UITableViewCell+Extension.h */,
+				187F13732078654500DDA0BE /* UITableViewCell+Extension.m */,
+				187F13752078654500DDA0BE /* ZLTableViewCellModelProtocol.h */,
+				187F13782078654500DDA0BE /* ZLTableViewSectionViewProtocol.h */,
+			);
+			name = tabModel;
+			path = ../../collectionModels/tabModel;
+			sourceTree = "<group>";
+		};
 		5F04361F205A4F7400A6C26B /* testCollectionviewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,19 +161,6 @@
 				5F04362A205A56A600A6C26B /* TestCollectionSectionModel.m */,
 			);
 			name = testCollectionviewModel;
-			sourceTree = "<group>";
-		};
-		5F0A3A4B2057BA51005980D5 /* union */ = {
-			isa = PBXGroup;
-			children = (
-				5F0A3A522057BA91005980D5 /* ZLListViewModel.h */,
-				5F0A3A532057BA91005980D5 /* ZLListViewModel.m */,
-				5F0A3A4C2057BA70005980D5 /* ZLSectionModel.h */,
-				5F0A3A4D2057BA70005980D5 /* ZLSectionModel.m */,
-				5F0A3A4F2057BA7F005980D5 /* ZLCellModel.h */,
-				5F0A3A502057BA7F005980D5 /* ZLCellModel.m */,
-			);
-			name = union;
 			sourceTree = "<group>";
 		};
 		5FA7E7B82058CBF700CCCEAD /* testTabModel */ = {
@@ -152,11 +193,11 @@
 		5FDBBBAF205669C90089D5EA /* CollectionModel */ = {
 			isa = PBXGroup;
 			children = (
+				187F135A2078654400DDA0BE /* CollectionModel */,
+				187F136E2078654500DDA0BE /* tabModel */,
+				187F13672078654400DDA0BE /* union */,
 				5F04361F205A4F7400A6C26B /* testCollectionviewModel */,
 				5FA7E7B82058CBF700CCCEAD /* testTabModel */,
-				5F0A3A4B2057BA51005980D5 /* union */,
-				5FDBBBC720566AEC0089D5EA /* tabModel */,
-				5FDBBBC620566AE40089D5EA /* collectionModel */,
 				5FDBBBB0205669C90089D5EA /* AppDelegate.h */,
 				5FDBBBB1205669C90089D5EA /* AppDelegate.m */,
 				5FDBBBB3205669C90089D5EA /* ViewController.h */,
@@ -171,44 +212,6 @@
 				5F0A3A4A2057B935005980D5 /* CollectionModel.pch */,
 			);
 			path = CollectionModel;
-			sourceTree = "<group>";
-		};
-		5FDBBBC620566AE40089D5EA /* collectionModel */ = {
-			isa = PBXGroup;
-			children = (
-				5F0A3A402057B326005980D5 /* ZLCollectionViewModel.h */,
-				5F0A3A412057B326005980D5 /* ZLCollectionViewModel.m */,
-				5F0A3A432057B6A0005980D5 /* ZLCollectionSectionModel.h */,
-				5F0A3A442057B6A0005980D5 /* ZLCollectionSectionModel.m */,
-				5F0A3A462057B6AE005980D5 /* ZLCollectionCellModel.h */,
-				5F0A3A472057B6AE005980D5 /* ZLCollectionCellModel.m */,
-				5F04361D205A2C6800A6C26B /* ZLCollectionViewReuseViewProtocol.h */,
-				5F04361E205A433D00A6C26B /* ZLCollectionViewCellProtocol.h */,
-				5F043620205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.h */,
-				5F043621205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.m */,
-				5F043623205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.h */,
-				5F043624205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.m */,
-			);
-			name = collectionModel;
-			sourceTree = "<group>";
-		};
-		5FDBBBC720566AEC0089D5EA /* tabModel */ = {
-			isa = PBXGroup;
-			children = (
-				5F0A3A552057BAB7005980D5 /* ZLTabViewModel.h */,
-				5F0A3A562057BAB7005980D5 /* ZLTabViewModel.m */,
-				5F0A3A582057BACB005980D5 /* ZLTableviewSectionModel.h */,
-				5F0A3A592057BACB005980D5 /* ZLTableviewSectionModel.m */,
-				5F0A3A5B2057BAE6005980D5 /* ZLTableviewCellModel.h */,
-				5F0A3A5C2057BAE6005980D5 /* ZLTableviewCellModel.m */,
-				5F0A3A5E2057D1D4005980D5 /* UITableViewCell+Extension.h */,
-				5F0A3A5F2057D1D4005980D5 /* UITableViewCell+Extension.m */,
-				5FA52DB420597D3700C2F8E1 /* UIView+TabSectionViewExtension.h */,
-				5FA52DB520597D3700C2F8E1 /* UIView+TabSectionViewExtension.m */,
-				5FA7E7BC2058CD8B00CCCEAD /* ZLTableViewCellModelProtocol.h */,
-				5FA52DB02059740800C2F8E1 /* ZLTableViewSectionViewProtocol.h */,
-			);
-			name = tabModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,26 +286,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0A3A452057B6A0005980D5 /* ZLCollectionSectionModel.m in Sources */,
-				5F043625205A506C00A6C26B /* UICollectionReusableView+collectionModelExtension.m in Sources */,
-				5F0A3A422057B326005980D5 /* ZLCollectionViewModel.m in Sources */,
+				187F137D2078654500DDA0BE /* ZLCollectionViewModel.m in Sources */,
 				5FDBBBB5205669C90089D5EA /* ViewController.m in Sources */,
-				5F0A3A542057BA91005980D5 /* ZLListViewModel.m in Sources */,
 				5F043628205A568000A6C26B /* TestCollectionModel.m in Sources */,
-				5F0A3A5A2057BACB005980D5 /* ZLTableviewSectionModel.m in Sources */,
-				5F0A3A572057BAB7005980D5 /* ZLTabViewModel.m in Sources */,
-				5FA52DB620597D3700C2F8E1 /* UIView+TabSectionViewExtension.m in Sources */,
-				5F0A3A4E2057BA70005980D5 /* ZLSectionModel.m in Sources */,
+				187F13832078654500DDA0BE /* ZLTableviewSectionModel.m in Sources */,
 				5FA7E7BB2058CC3900CCCEAD /* TestCellModel.m in Sources */,
 				5FDBBBC0205669C90089D5EA /* main.m in Sources */,
+				187F13872078654500DDA0BE /* UIView+TabSectionViewExtension.m in Sources */,
+				187F137F2078654500DDA0BE /* ZLCollectionCellModel.m in Sources */,
+				187F13802078654500DDA0BE /* ZLSectionModel.m in Sources */,
+				187F137E2078654500DDA0BE /* UICollectionReusableView+collectionModelExtension.m in Sources */,
+				187F137B2078654500DDA0BE /* UICollectionViewCell+CollectionModelExtension.m in Sources */,
 				5FDBBBB2205669C90089D5EA /* AppDelegate.m in Sources */,
-				5F0A3A482057B6AE005980D5 /* ZLCollectionCellModel.m in Sources */,
-				5F0A3A512057BA7F005980D5 /* ZLCellModel.m in Sources */,
+				187F13852078654500DDA0BE /* ZLTableviewCellModel.m in Sources */,
 				5FA52DB32059773200C2F8E1 /* ZLLblSectionModel.m in Sources */,
-				5F043622205A504F00A6C26B /* UICollectionViewCell+CollectionModelExtension.m in Sources */,
+				187F137C2078654500DDA0BE /* ZLCollectionSectionModel.m in Sources */,
+				187F13822078654500DDA0BE /* ZLListViewModel.m in Sources */,
 				5F04362B205A56A600A6C26B /* TestCollectionSectionModel.m in Sources */,
-				5F0A3A5D2057BAE6005980D5 /* ZLTableviewCellModel.m in Sources */,
-				5F0A3A602057D1D4005980D5 /* UITableViewCell+Extension.m in Sources */,
+				187F13862078654500DDA0BE /* UITableViewCell+Extension.m in Sources */,
+				187F13812078654500DDA0BE /* ZLCellModel.m in Sources */,
+				187F13842078654500DDA0BE /* ZLTabViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(PRODUCT_NAME).pch";
 				INFOPLIST_FILE = CollectionModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = heimavista.CollectionModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,7 +463,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/$(PRODUCT_NAME).pch";
 				INFOPLIST_FILE = CollectionModel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = heimavista.CollectionModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
